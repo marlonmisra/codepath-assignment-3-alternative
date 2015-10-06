@@ -1,21 +1,22 @@
 //
-//  MailboxViewController.swift
+//  SingleMessageViewController.swift
 //  assignment_3
 //
-//  Created by Marlon Misra on 10/1/15.
+//  Created by Marlon Misra on 10/6/15.
 //  Copyright © 2015 Marlon Misra. All rights reserved.
 //
 
 import UIKit
 
-class MailboxViewController: UIViewController {
-
-    @IBOutlet weak var mailBoxScrollView: UIScrollView!
-   
+class SingleMessageViewController: UIViewController {
     
+    @IBOutlet weak var singleMessage: UIImageView!
+    @IBOutlet weak var archiveNavIcon: UIImageView!
+    @IBOutlet weak var laterNavIcon: UIImageView!
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        mailBoxScrollView.contentSize = CGSizeMake(320, 1281)
 
         // Do any additional setup after loading the view.
     }
